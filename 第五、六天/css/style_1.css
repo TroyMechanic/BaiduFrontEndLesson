@@ -1,0 +1,24 @@
+#info p, #info div, #contact p, #contact div {
+    display: inline-block;
+}
+
+#info div, #contact div {
+    margin-right: 40px
+}
+
+#info p, #contact p {
+    margin-right: 10px
+}
+
+#info p:first-child, #contact p:first-child, #ability p:first-child, #edu p:first-child, #products p:first-child {
+    font-weight: bold;
+}
+
+#contact a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}
