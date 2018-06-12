@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .head{
+            height:80px;
+            background-color: #333333;
+            line-height: 80px;
+        }
+        .head p{
+            font-family: sans-serif;
+            font-size: 20px;
+            color: white;
+            margin-left:200px
+        }
+        .head ul{
+            margin-left:-200px;
+            margin-right: 20px;
+            margin-top:-110px;
+            list-style-type: none;
+        }
+        .head li{
+            float: right;
+            color: white;
+            font-size: 16px;
+            margin:10px;
+        }
+        .head li a{
+            text-decoration: underline;
+        }
+        .banner{
+            height: 300px;
+            background-color: #66bb33;
+        }
+        .nav{
+            height: 70px;
+            border-bottom: 1px solid;
+            border-color: #DDDDDD;
+            position: relative;
+        }
+        .content{
+            width: 950px;
+            margin: 0 auto;
+        }
+        .content>div{
+            display: flex;
+        }
+        .contentbox{
+            flex:1;
+            border: 1px solid #DDDDDD;
+            height: 175px;
+            margin:8px;
+        }
+        .footer{
+            height: 120px;
+            background-color: #333333;
+        }
+        .nums{
+            height: 300px;
+            position: relative;
+        }
+        .nums ul{
+            list-style-type: none;
+            float: right;
+            position: absolute;
+            right:20px;
+            bottom:10px;
+
+        }
+        .nums li{
+            margin: 4px;
+            border: 1px solid black;
+            height: 32px;
+            width: 28px;
+            float: right;
+            line-height: 32px;
+            text-align: center;
+            background-color: #fff;
+            opacity: 0.4;
+            vertical-align: bottom;
+            position: absolute;
+            bottom: 1px;
+        }
+        .nums li:nth-of-type(1){
+            right:1px
+        }
+        .nums li:nth-of-type(2){
+            right:35px
+        }
+        .nums li:nth-of-type(3){
+            right:70px
+        }
+        .nums li:nth-of-type(4){
+            right:105px
+        }
+        .nums li a{
+            text-decoration: none;
+        }
+        .nums li:hover{
+            padding-top:8px ;
+            opacity: 0.8;
+        }
+        .nav ul{
+            position: absolute;
+            bottom: -1px;
+            left:20px;
+            list-style-type: none;
+        }
+        .nav li{
+            float: left;
+            width: 104px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid #DDDDDD;
+            border-top-left-radius: 20%;
+            border-top-right-radius: 20%;
+            border-bottom: 1px solid white;
+            background-color: #EEEEEE;
+        }
+        .nav li:hover{
+            background-color: white;
+        }
+        .footer{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <p>Logo</p>
+    <ul>
+        <li><a>Github</a></li>
+        <li><a>Register</a></li>
+        <li><a>Login</a></li>
+    </ul>
+</div>
+<div class="banner">
+    <div class="nums">
+        <ul>
+            <li><a href="">4</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">1</a></li>
+        </ul>
+    </div>
+</div>
+<div class="nav">
+    <ul>
+        <li>HOME</li>
+        <li>PROFILE</li>
+        <li>ABOUT</li>
+    </ul>
+</div>
+<div class="content">
+    <div class="line-1">
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+    </div>
+    <div class="line-2">
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+    </div>
+    <div class="line-3">
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+        <div class="contentbox"></div>
+    </div>
+</div>
+<div class="footer">ⓒ 2018 ife.baidu.com</div>
+</body>
+</html>
